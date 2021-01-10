@@ -17,17 +17,17 @@
 
 ## 2. Ne Yaptım?
 
-##### Doğruma işlemi için veritabanı olmadığından dolayı code üretirken bir tane algoritma ile üretip bu kodu doğrularken aynı algoritmadan gerçirmem gerektiğine karar verdim.
+##### Doğrulama işlemi için veritabanı olmadığından dolayı code üretirken bir tane algoritma ile üretip bu kodu doğrularken aynı algoritmadan gerçirmem gerektiğine karar verdim.
 
-##### Bir süre nasıl bir algoritma kurabileceğimi düşündüm ve en doğrusu matematiksel işlemlerden geçirip kodu öyle üretmeye karar verdim böylece algoritmamı daha esnek bir yapıda oluşturabilecektim.
+##### Bir süre nasıl bir algoritma kurabileceğimi düşündüm ve en doğrusu matematiksel işlemlerden geçirip kodu öyle üretmeye karar verdim, böylece algoritmamı daha esnek bir yapıda oluşturabilecektim.
 
-##### Verilen harfleri ASCII değerlerinin bunun için uygun olabileceğine karar verdim ve harflerin ascii karakterlerini kullanmaya başladım.
+##### Verilen harfleri ASCII değerlerinin bunun için uygun olabileceğine karar verdim ve harflerin ASCII karakterlerini kullanmaya başladım.
 
-##### Başlangıç olarak algoritmamı kodta bulunan harfleri ascii değerlerinin toplamını bir sayıya sabitlemeye karar verdim. Sıra bu sabit sayıya karar vermeye geldi.
+##### Başlangıç olarak algoritmamı kod içerisinde bulunan harfleri ASCII değerlerinin toplamını bir sayıya sabitlemeye karar verdim. Sıra bu sabit sayıya karar vermeye geldi.
 
-##### 10000 bin tane kod ve bıu kodların toplamını program yardımı ile bir txt dosyasına yazdırdım ve excell ile açtım. Excell ile ençok çıkan toplamı buldum. Bu toplamın gelme ihtimalinin en fazla olduğunu düşünerek kod üretirkenki geçen zamanı azaltmak için bu sayı olabileceğine karar verdim.
+##### 100000 bin tane kod ve bu kodların toplamını program yardımı ile bir txt dosyasına yazdırdım ve excell ile açtım. Excell ile ençok çıkan toplamı buldum. Bu toplamın gelme ihtimalinin en fazla olduğunu düşünerek kod üretirkenki geçen zamanı azaltmak için bu sayı olabileceğine karar verdim.
 
-##### Daha sonra ascii değer kullanmanın herkesin aklına gelebileceğini düşünerek karakterlerin değerini kendim vermeye karar verdim ve her bir karaktere bir sayı verdim.
+##### Daha sonra ASCII değer kullanmanın herkesin aklına gelebileceğini düşünerek karakterlerin değerini kendim vermeye karar verdim ve her bir karaktere bir sayı verdim.
 
 ##### Verdiğim sayı aralığı arttıkça kod üretim süresinin arttığını fark edince bu aralığı azalttım.
 

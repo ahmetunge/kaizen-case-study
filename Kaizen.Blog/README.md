@@ -35,7 +35,7 @@
 
 - Dummy Data Ekleme
 
-Dummy data eklemek için Bogus isimli kütüphaneyi kullandım. Bu kütüphane sayesinde testlerim için gereken datayı oluşturmayı başardım. Bu kütüphane yardımı ile 1 tane kullanıcı (User), 3 tane Kategori(Category) ve 11306 tane makale(Article) oluşturdum. Bu sayı Seed sınıfı içerisine gidilerek daha da artırılabilir. 
+Dummy data eklemek için - Bogus -  isimli kütüphaneyi kullandım. Bu kütüphane sayesinde testlerim için gereken datayı oluşturmayı başardım. Bogus kütüphanesini kullanarak 1 tane kullanıcı (User), 3 tane Kategori(Category) ve 11306 tane makale(Article) oluşturdum. Bu sayı Seed sınıfı içerisine gidilerek daha da artırılabilir. 
 
 
 - Verileri Kaydetme
@@ -93,8 +93,8 @@ https://github.com/ahmetunge/dotnet-core-angular-simple-phone-book linkinden ula
 ## 5. Projeyi Nasıl Daha İyi Hale Getirebilirim.
 
 - Categori ve projeye büyüyünce gerekli olacak bazı verileri Redis cache içerinde tutardım. 
-- Hızlı bir arama için Elasticsearch kullanırım.
-- Veritabanına giren birinin şifreleri görmemesi için girilen şifreleri tek yönlü olarak salt ile beraber şifreli bir şekilde veritabanına kaydederdim.
+- Hızlı bir arama için Elasticsearch kullanırdım.
+- Veritabanına giren birinin şifreleri görmemesi için girilen şifreleri tek yönlü olarak salt(bir kelime) ile beraber şifreli bir şekilde veritabanına kaydederdim.
 - Daha güzel bir loglama deneyimi için Elastic search kullanırdım.
 - Uygulamayı dockerize ederdim.
 - Unit testlerimi yazardım.
