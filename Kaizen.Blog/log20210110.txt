@@ -1,0 +1,114 @@
+2021-01-10 15:22:06.688 +03:00 [INF] Seeded Data
+2021-01-10 15:22:06.748 +03:00 [INF] Migration is applied
+2021-01-10 15:22:06.794 +03:00 [INF] User profile is available. Using 'C:\Users\ahmet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 15:22:07.066 +03:00 [INF] Now listening on: http://localhost:5000
+2021-01-10 15:22:07.068 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 15:22:07.069 +03:00 [INF] Hosting environment: Development
+2021-01-10 15:22:07.076 +03:00 [INF] Content root path: D:\Projects\Kaizen\Kaizen.Blog
+2021-01-10 15:22:07.709 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-01-10 15:22:07.938 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 233.3441ms
+2021-01-10 15:22:08.178 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-01-10 15:22:08.331 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.4861ms
+2021-01-10 15:22:38.996 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Identity/register application/json-patch+json 51
+2021-01-10 15:22:39.059 +03:00 [INF] Executing endpoint 'Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog)'
+2021-01-10 15:22:39.100 +03:00 [INF] Route matched with {action = "Register", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Kaizen.Blog.Dtos.UserRegisterDto) on controller Kaizen.Blog.Controllers.IdentityController (Kaizen.Blog).
+2021-01-10 15:22:39.612 +03:00 [INF] Executing action method Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog) - Validation state: "Valid"
+2021-01-10 15:22:39.622 +03:00 [INF] User register
+2021-01-10 15:22:39.881 +03:00 [INF] Executed action method Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 255.0731ms.
+2021-01-10 15:22:39.899 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Kaizen.Blog.Utilities.Results.ErrorDataResult`1[[Kaizen.Blog.Dtos.AuthResponseDto, Kaizen.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-10 15:22:39.970 +03:00 [INF] Executed action Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog) in 848.9833ms
+2021-01-10 15:22:39.976 +03:00 [INF] Executed endpoint 'Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog)'
+2021-01-10 15:22:39.982 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Identity/register application/json-patch+json 51 - 400 78 application/json;+charset=utf-8 986.2064ms
+2021-01-10 15:27:04.507 +03:00 [INF] Seeded Data
+2021-01-10 15:27:04.577 +03:00 [INF] Migration is applied
+2021-01-10 15:27:04.639 +03:00 [INF] User profile is available. Using 'C:\Users\ahmet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 15:27:04.919 +03:00 [INF] Now listening on: http://localhost:5000
+2021-01-10 15:27:04.922 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 15:27:04.923 +03:00 [INF] Hosting environment: Development
+2021-01-10 15:27:04.925 +03:00 [INF] Content root path: D:\Projects\Kaizen\Kaizen.Blog
+2021-01-10 15:27:05.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-01-10 15:27:05.792 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 258.2365ms
+2021-01-10 15:27:06.033 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-01-10 15:27:06.180 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.5714ms
+2021-01-10 15:27:12.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Articles - -
+2021-01-10 15:27:12.695 +03:00 [INF] Executing endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 15:27:12.736 +03:00 [INF] Route matched with {action = "ListArticle", controller = "Articles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListArticle(Kaizen.Blog.Dtos.ArticleParams) on controller Kaizen.Blog.Controllers.ArticlesController (Kaizen.Blog).
+2021-01-10 15:27:13.086 +03:00 [INF] Executing action method Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) - Validation state: "Valid"
+2021-01-10 15:27:13.094 +03:00 [INF] Get Article List
+2021-01-10 15:27:13.412 +03:00 [INF] Executed action method Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 313.2814ms.
+2021-01-10 15:27:13.430 +03:00 [INF] Executing OkObjectResult, writing value of type 'Kaizen.Blog.Utilities.Results.SuccessDataResult`1[[Kaizen.Blog.DataAccess.EFCore.PagedList`1[[Kaizen.Blog.Dtos.ArticleToListDto, Kaizen.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Kaizen.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-10 15:27:13.599 +03:00 [INF] Executed action Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) in 854.3148ms
+2021-01-10 15:27:13.602 +03:00 [INF] Executed endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 15:27:13.613 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Articles - - - 200 4912 application/json;+charset=utf-8 971.9518ms
+2021-01-10 15:27:54.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Articles - -
+2021-01-10 15:27:54.237 +03:00 [INF] Executing endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 15:27:54.239 +03:00 [INF] Route matched with {action = "ListArticle", controller = "Articles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListArticle(Kaizen.Blog.Dtos.ArticleParams) on controller Kaizen.Blog.Controllers.ArticlesController (Kaizen.Blog).
+2021-01-10 15:27:54.292 +03:00 [INF] Executing action method Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) - Validation state: "Valid"
+2021-01-10 15:28:01.467 +03:00 [INF] Get Article List
+2021-01-10 15:28:07.735 +03:00 [INF] Executed action method Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13441.0964ms.
+2021-01-10 15:28:07.739 +03:00 [INF] Executing OkObjectResult, writing value of type 'Kaizen.Blog.Utilities.Results.SuccessDataResult`1[[Kaizen.Blog.DataAccess.EFCore.PagedList`1[[Kaizen.Blog.Dtos.ArticleToListDto, Kaizen.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Kaizen.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-10 15:28:07.744 +03:00 [INF] Executed action Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) in 13502.9477ms
+2021-01-10 15:28:07.748 +03:00 [INF] Executed endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 15:28:07.750 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Articles - - - 200 4912 application/json;+charset=utf-8 13528.3257ms
+2021-01-10 15:28:41.693 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Identity/register application/json-patch+json 38
+2021-01-10 15:28:41.696 +03:00 [INF] Executing endpoint 'Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog)'
+2021-01-10 15:28:41.706 +03:00 [INF] Route matched with {action = "Register", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Kaizen.Blog.Dtos.UserRegisterDto) on controller Kaizen.Blog.Controllers.IdentityController (Kaizen.Blog).
+2021-01-10 15:28:41.779 +03:00 [INF] Executing action method Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog) - Validation state: "Valid"
+2021-01-10 15:28:53.488 +03:00 [INF] User register
+2021-01-10 15:29:16.991 +03:00 [INF] Executed action method Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 35210.1883ms.
+2021-01-10 15:29:16.994 +03:00 [INF] Executing OkObjectResult, writing value of type 'Kaizen.Blog.Utilities.Results.SuccessDataResult`1[[Kaizen.Blog.Dtos.AuthResponseDto, Kaizen.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-10 15:29:21.348 +03:00 [INF] Executed action Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog) in 39639.0928ms
+2021-01-10 15:29:21.381 +03:00 [INF] Executed endpoint 'Kaizen.Blog.Controllers.IdentityController.Register (Kaizen.Blog)'
+2021-01-10 15:29:21.383 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Identity/register application/json-patch+json 38 - 200 273 application/json;+charset=utf-8 39690.7469ms
+2021-01-10 16:21:07.412 +03:00 [INF] Seeded Data
+2021-01-10 16:21:07.488 +03:00 [INF] Migration is applied
+2021-01-10 16:21:07.552 +03:00 [INF] User profile is available. Using 'C:\Users\ahmet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 16:21:08.078 +03:00 [INF] Now listening on: http://localhost:5000
+2021-01-10 16:21:08.080 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 16:21:08.081 +03:00 [INF] Hosting environment: Development
+2021-01-10 16:21:08.082 +03:00 [INF] Content root path: D:\Projects\Kaizen\Kaizen.Blog
+2021-01-10 16:21:09.257 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-01-10 16:21:09.823 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 571.7012ms
+2021-01-10 16:21:10.083 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-01-10 16:21:10.263 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.4621ms
+2021-01-10 16:21:21.867 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Articles?PageNumber=3&PageSize=50 - -
+2021-01-10 16:21:21.941 +03:00 [INF] Executing endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 16:21:21.991 +03:00 [INF] Route matched with {action = "ListArticle", controller = "Articles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListArticle(Kaizen.Blog.Dtos.ArticleParams) on controller Kaizen.Blog.Controllers.ArticlesController (Kaizen.Blog).
+2021-01-10 16:21:22.757 +03:00 [INF] Executing action method Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) - Validation state: "Valid"
+2021-01-10 16:21:26.496 +03:00 [INF] Get Article List
+2021-01-10 16:21:31.173 +03:00 [INF] Executed action Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) in 9173.6438ms
+2021-01-10 16:21:31.181 +03:00 [INF] Executed endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 16:22:43.615 +03:00 [INF] Seeded Data
+2021-01-10 16:22:43.691 +03:00 [INF] Migration is applied
+2021-01-10 16:22:43.743 +03:00 [INF] User profile is available. Using 'C:\Users\ahmet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 16:22:44.040 +03:00 [INF] Now listening on: http://localhost:5000
+2021-01-10 16:22:44.042 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 16:22:44.045 +03:00 [INF] Hosting environment: Development
+2021-01-10 16:22:44.048 +03:00 [INF] Content root path: D:\Projects\Kaizen\Kaizen.Blog
+2021-01-10 16:22:45.124 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-01-10 16:22:45.389 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 276.0178ms
+2021-01-10 16:22:45.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-01-10 16:22:45.771 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.9765ms
+2021-01-10 16:22:50.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Articles - -
+2021-01-10 16:22:50.977 +03:00 [INF] Executing endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 16:22:51.015 +03:00 [INF] Route matched with {action = "ListArticle", controller = "Articles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListArticle(Kaizen.Blog.Dtos.ArticleParams) on controller Kaizen.Blog.Controllers.ArticlesController (Kaizen.Blog).
+2021-01-10 16:22:51.364 +03:00 [INF] Executing action method Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) - Validation state: "Valid"
+2021-01-10 16:22:54.072 +03:00 [INF] Get Article List
+2021-01-10 16:22:55.466 +03:00 [INF] Executed action Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) in 4442.7897ms
+2021-01-10 16:22:55.474 +03:00 [INF] Executed endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 16:23:37.856 +03:00 [INF] Seeded Data
+2021-01-10 16:23:37.914 +03:00 [INF] Migration is applied
+2021-01-10 16:23:37.972 +03:00 [INF] User profile is available. Using 'C:\Users\ahmet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 16:23:38.253 +03:00 [INF] Now listening on: http://localhost:5000
+2021-01-10 16:23:38.255 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 16:23:38.256 +03:00 [INF] Hosting environment: Development
+2021-01-10 16:23:38.258 +03:00 [INF] Content root path: D:\Projects\Kaizen\Kaizen.Blog
+2021-01-10 16:23:39.142 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-01-10 16:23:39.379 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 244.4476ms
+2021-01-10 16:23:39.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-01-10 16:23:39.829 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.7423ms
+2021-01-10 16:23:45.035 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Articles - -
+2021-01-10 16:23:45.092 +03:00 [INF] Executing endpoint 'Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog)'
+2021-01-10 16:23:45.136 +03:00 [INF] Route matched with {action = "ListArticle", controller = "Articles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListArticle(Kaizen.Blog.Dtos.ArticleParams) on controller Kaizen.Blog.Controllers.ArticlesController (Kaizen.Blog).
+2021-01-10 16:23:45.474 +03:00 [INF] Executing action method Kaizen.Blog.Controllers.ArticlesController.ListArticle (Kaizen.Blog) - Validation state: "Valid"
+2021-01-10 16:23:48.140 +03:00 [INF] Get Article List
